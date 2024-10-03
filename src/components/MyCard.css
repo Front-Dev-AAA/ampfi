@@ -1,0 +1,29 @@
+.card__title{
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 110%;
+	text-align: center;
+	color: #CE4307;
+	margin-bottom: 15px;
+}
+
+
+.card__list{
+	border-radius: 20px;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	box-shadow: 2px 2px 100px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+	font-size: 28px;
+	line-height: 110%;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.card__item{
+    margin-bottom: 15px;
+}

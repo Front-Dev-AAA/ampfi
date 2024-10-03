@@ -1,0 +1,34 @@
+.btn-task {
+  cursor: pointer;
+  border: 2px solid #ed6742;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-task:hover,
+.btn-filter:active {
+  /* background-color: #BC572B; */
+  color: rgb(41, 80, 199);
+}
+
+
+.task {
+  border: 2px solid #ed6742;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 110%;
+}
+
+.icon circle{
+  fill: transparent;
+}
+.icon-red circle{
+  fill: red;
+}
+
+.icon-green circle{
+    fill: green;
+}
+
+.icon-yellow circle{
+    fill:  yellow;
+}

@@ -1,0 +1,104 @@
+#root {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  font-family: 'Open-sans', sans-serif;
+  margin: 0;
+  background-color: #e0ebec;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn-reset {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+}
+
+
+
+
+
+
+
+
+

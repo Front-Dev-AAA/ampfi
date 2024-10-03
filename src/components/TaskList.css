@@ -1,0 +1,58 @@
+.title-list {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54%;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+
+.list__btn {
+  opacity: 0.9;
+  background-color: greenyellow;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: transform .5s, outline-color .5s;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid teal;
+  margin-bottom: 20px;
+}
+
+.list__btn:focus-visible {
+  outline-color: rgb(0, 94, 255);
+}
+
+.list__btn:hover {
+  transform: scale(1.02);
+}
+
+.list__btn:active {
+  transform: scale(0.97);
+}
+
+
+
+.column-name{
+  border: 2px solid #111985;
+  font-weight: 600;
+	font-size: 27px;
+	line-height: 110%;
+  color: black;
+}
+
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+
+
+
